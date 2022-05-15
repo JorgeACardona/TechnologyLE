@@ -1,0 +1,37 @@
+#body{
+    background-color: #f5f5dc;
+    
+}
+
+#img-computador{
+display:inline-block;
+}
+
+#cont-titulo{
+display:inline-block;
+margin-left: 8%;
+font-family: arial;
+font-weight: bold;
+}
+
+#cont-informacion{
+    display:inline-block;
+    margin-top: 2%;
+    margin-left:5%;
+}
+
+#cont-subtitulo{
+text-align:center;
+font-family: arial;
+font-weight: bold;
+}
+
+#parrafo{
+    text-align:center;
+    font-family: arial;
+    font-size: 120%;
+}
+
+#img-usb{
+    display:inline-block;
+    }
