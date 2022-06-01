@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export function Header() {
+export function Header3() {
   return (
     <header id="header" class="p-3 bg-dark text-white">
       <div class="container">
@@ -68,7 +68,7 @@ export function Header() {
 
           <div class="text-end">
             <a  href="/iniciarsesion" ><button type="button" class="btn btn-outline-light me-2">Iniciar Sesión</button></a>
-            <a  href="/registrarse" ><button type="button" class="btn btn-warning">Registrarse</button></a>
+            
           </div>
         </div>
       </div>

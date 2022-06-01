@@ -1,0 +1,30 @@
+#resultado {
+    margin-left: 60%;
+    display: inline-block;
+}
+
+h1 {
+    padding-top: 1%;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#form {
+    margin-left: 6%;
+}
+
+p {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+li {
+    font-family: arial;
+    font-size: 115%;
+}
+
+ol{
+    display:inline-block;
+}

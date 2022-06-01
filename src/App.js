@@ -6,6 +6,10 @@ import {Homebody} from '../src/components/Homebody';
 import {Cfuncionales} from '../src/components/Cfuncionales';
 import { Perifericos } from './components/Perifericos';
 import { ManHardware } from './components/ManHardware';
+import { Orientacion } from './components/Orientacion';
+import { Sesion } from './pages/Sesion';
+import { Registro } from './pages/Registro';
+
 
 export class App extends React.Component{
     render(){
@@ -18,6 +22,11 @@ return(
       <Route path="/componentesfuncionales" element={<Cfuncionales />} />
       <Route path="/perifericos" element={<Perifericos />} />
       <Route path="/mantenimientohardware" element={<ManHardware />} />
+      <Route path="/orientacion" element={<Orientacion />} />
+      <Route path='/iniciarsesion' element={<Sesion />} />
+      <Route path="/registrarse" element={<Registro/>}/>
+
+
     </Routes>
   </BrowserRouter>
    
