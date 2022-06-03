@@ -1,0 +1,23 @@
+#body {
+    background-color: #f5f5dc;
+}
+
+
+
+div.infod {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 15px;
+    font-family: arial;
+    font-size: 120%;
+}
+
+div.reset {
+    clear: both;
+}
+
+div.infod h2 {
+    margin-top: 5%;
+}

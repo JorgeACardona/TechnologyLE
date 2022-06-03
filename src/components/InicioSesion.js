@@ -39,6 +39,7 @@ export function InicioSesion() {
                     </div>
 
                     <input type="submit" class="form_submit" value="Entrar"></input>
+                    <a href="/administracion" class="link-secondary">Administrador</a>
                 </div>
             </form>
 

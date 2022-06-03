@@ -9,6 +9,7 @@ import { ManHardware } from './components/ManHardware';
 import { Orientacion } from './components/Orientacion';
 import { Sesion } from './pages/Sesion';
 import { Registro } from './pages/Registro';
+import { Admin } from './components/Admin';
 
 
 export class App extends React.Component{
@@ -25,6 +26,7 @@ return(
       <Route path="/orientacion" element={<Orientacion />} />
       <Route path='/iniciarsesion' element={<Sesion />} />
       <Route path="/registrarse" element={<Registro/>}/>
+      <Route path="/administracion" element={<Admin />}/>
 
 
     </Routes>
