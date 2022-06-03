@@ -32,9 +32,9 @@ export function Header() {
                         Software
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Sistema operativo</a></li>
-                        <li><a class="dropdown-item" href="#">Programas</a></li>
-                        <li><a class="dropdown-item" href="#">Mantenimiento</a></li>
+                        <li><a class="dropdown-item" href="/So">Sistema operativo</a></li>
+                        <li><a class="dropdown-item" href="/Programas">Programas</a></li>
+                        <li><a class="dropdown-item" href="/Mantenimiento">Mantenimiento</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">

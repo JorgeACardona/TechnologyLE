@@ -9,6 +9,9 @@ import { ManHardware } from './components/ManHardware';
 import { Orientacion } from './components/Orientacion';
 import { Sesion } from './pages/Sesion';
 import { Registro } from './pages/Registro';
+import { So } from './components/So';
+import { Programas } from './components/Programas';
+import { Mantenimiento } from './components/Mantenimiento';
 
 
 export class App extends React.Component{
@@ -25,6 +28,9 @@ return(
       <Route path="/orientacion" element={<Orientacion />} />
       <Route path='/iniciarsesion' element={<Sesion />} />
       <Route path="/registrarse" element={<Registro/>}/>
+      <Route path="/So" element={<So/>}/>
+      <Route path="/Programas" element={<Programas/>}/>
+      <Route path="/Mantenimiento" element={<Mantenimiento/>}/>
 
 
     </Routes>

@@ -1,0 +1,39 @@
+div.infod {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 15px;
+    font-family: arial;
+    font-size:120%;
+}
+
+div.infoi {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 15px;
+    font-family: arial;
+    font-size:120%;
+    text-align: right;
+}
+  
+  
+  div.reset {
+    clear: both;
+  }
+
+  div.infoi img.izquierda1 {
+    float: left;
+    margin-right: 15px;
+    width: 20%;
+    height: 20%;
+  }
+  
+  div.infod img.derecha1 {
+    float: right;
+    margin-left: 15px;
+    width: 20%;
+    height: 20%;
+  }
