@@ -19,7 +19,7 @@ export function Homebody() {
                 <p id="parrafo">
                     Brinda información a las personas que quieren conocer sobre los componentes<br />
                     de un computador. Tambien podrás obtener una orientación que te ayude a encontrar  <br />
-                    tu mejor opción de computador dependiendo a tu necesidad</p>
+                    tu mejor opción de computador dependiendo a tu necesidad.</p>
             </div>
             <img id="img-usb" src={USB}></img>
         </body>

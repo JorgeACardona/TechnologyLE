@@ -1,38 +1,54 @@
 #body{
+    background-color: #f5f5dc;  
+}
+
+div.info {
+    width: 80%;
+    margin: 20px auto;
     background-color: #f5f5dc;
-    
-}
-
-#img-computador{
-display:inline-block;
-}
-
-#cont-titulo{
-display:inline-block;
-margin-left: 8%;
-font-family: arial;
-font-weight: bold;
-}
-
-#cont-informacion{
-    display:inline-block;
-    margin-top: 2%;
-    margin-left:5%;
-    width: 40%;
-}
-
-#cont-subtitulo{
-text-align:center;
-font-family: arial;
-font-weight: bold;
-}
-
-#parrafo{
-    text-align:center;
+    color: black;
+    padding: 15px;
     font-family: arial;
-    font-size: 120%;
+    font-size:120%;
+    text-align: center;
 }
 
-#img-usb{
-    display:inline-block;
-    }
+div.infod {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 15px;
+    font-family: arial;
+    font-size:120%;
+}
+
+div.infoi {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 15px;
+    font-family: arial;
+    font-size:120%;
+    text-align: right;
+}
+  
+  
+  div.reset {
+    clear: both;
+  }
+
+  div.infoi img.izquierda1 {
+    float: left;
+    margin-right: 15px;
+    width: 20%;
+    height: 20%;
+  }
+  
+  div.infod img.derecha1 {
+    float: right;
+    margin-left: 15px;
+    width: 20%;
+    height: 20%;
+  }

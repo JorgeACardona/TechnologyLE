@@ -12,6 +12,7 @@ import { Registro } from './pages/Registro';
 import { So } from './components/So';
 import { Programas } from './components/Programas';
 import { Mantenimiento } from './components/Mantenimiento';
+import { Admin } from '../src/components/Admin';
 
 
 export class App extends React.Component{
@@ -31,6 +32,7 @@ return(
       <Route path="/So" element={<So/>}/>
       <Route path="/Programas" element={<Programas/>}/>
       <Route path="/Mantenimiento" element={<Mantenimiento/>}/>
+      <Route path ="/administracion" element={<Admin />}/>
 
 
     </Routes>
